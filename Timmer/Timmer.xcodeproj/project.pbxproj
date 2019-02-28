@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10AFDDC21DF92A900205838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AFDDB21DF92A900205838 /* AppDelegate.swift */; };
+		A10AFDDE21DF92A900205838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AFDDD21DF92A900205838 /* ViewController.swift */; };
+		A10AFDE121DF92A900205838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10AFDDF21DF92A900205838 /* Main.storyboard */; };
+		A10AFDE321DF92AB00205838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10AFDE221DF92AB00205838 /* Assets.xcassets */; };
+		A10AFDE621DF92AB00205838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10AFDE421DF92AB00205838 /* LaunchScreen.storyboard */; };
+		A10AFDF121DF92AB00205838 /* TimmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AFDF021DF92AB00205838 /* TimmerTests.swift */; };
+		A10AFDFC21DF92AB00205838 /* TimmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AFDFB21DF92AB00205838 /* TimmerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10AFDED21DF92AB00205838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10AFDD021DF92A900205838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10AFDD721DF92A900205838;
+			remoteInfo = Timmer;
+		};
+		A10AFDF821DF92AB00205838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10AFDD021DF92A900205838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10AFDD721DF92A900205838;
+			remoteInfo = Timmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10AFDD821DF92A900205838 /* Timmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10AFDDB21DF92A900205838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10AFDDD21DF92A900205838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A10AFDE021DF92A900205838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A10AFDE221DF92AB00205838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10AFDE521DF92AB00205838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A10AFDE721DF92AB00205838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10AFDEC21DF92AB00205838 /* TimmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10AFDF021DF92AB00205838 /* TimmerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimmerTests.swift; sourceTree = "<group>"; };
+		A10AFDF221DF92AB00205838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10AFDF721DF92AB00205838 /* TimmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10AFDFB21DF92AB00205838 /* TimmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimmerUITests.swift; sourceTree = "<group>"; };
+		A10AFDFD21DF92AB00205838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10AFDD521DF92A900205838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AFDE921DF92AB00205838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AFDF421DF92AB00205838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10AFDCF21DF92A900205838 = {
+			isa = PBXGroup;
+			children = (
+				A10AFDDA21DF92A900205838 /* Timmer */,
+				A10AFDEF21DF92AB00205838 /* TimmerTests */,
+				A10AFDFA21DF92AB00205838 /* TimmerUITests */,
+				A10AFDD921DF92A900205838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10AFDD921DF92A900205838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10AFDD821DF92A900205838 /* Timmer.app */,
+				A10AFDEC21DF92AB00205838 /* TimmerTests.xctest */,
+				A10AFDF721DF92AB00205838 /* TimmerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10AFDDA21DF92A900205838 /* Timmer */ = {
+			isa = PBXGroup;
+			children = (
+				A10AFDDB21DF92A900205838 /* AppDelegate.swift */,
+				A10AFDDD21DF92A900205838 /* ViewController.swift */,
+				A10AFDDF21DF92A900205838 /* Main.storyboard */,
+				A10AFDE221DF92AB00205838 /* Assets.xcassets */,
+				A10AFDE421DF92AB00205838 /* LaunchScreen.storyboard */,
+				A10AFDE721DF92AB00205838 /* Info.plist */,
+			);
+			path = Timmer;
+			sourceTree = "<group>";
+		};
+		A10AFDEF21DF92AB00205838 /* TimmerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A10AFDF021DF92AB00205838 /* TimmerTests.swift */,
+				A10AFDF221DF92AB00205838 /* Info.plist */,
+			);
+			path = TimmerTests;
+			sourceTree = "<group>";
+		};
+		A10AFDFA21DF92AB00205838 /* TimmerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A10AFDFB21DF92AB00205838 /* TimmerUITests.swift */,
+				A10AFDFD21DF92AB00205838 /* Info.plist */,
+			);
+			path = TimmerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10AFDD721DF92A900205838 /* Timmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10AFE0021DF92AB00205838 /* Build configuration list for PBXNativeTarget "Timmer" */;
+			buildPhases = (
+				A10AFDD421DF92A900205838 /* Sources */,
+				A10AFDD521DF92A900205838 /* Frameworks */,
+				A10AFDD621DF92A900205838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timmer;
+			productName = Timmer;
+			productReference = A10AFDD821DF92A900205838 /* Timmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10AFDEB21DF92AB00205838 /* TimmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10AFE0321DF92AB00205838 /* Build configuration list for PBXNativeTarget "TimmerTests" */;
+			buildPhases = (
+				A10AFDE821DF92AB00205838 /* Sources */,
+				A10AFDE921DF92AB00205838 /* Frameworks */,
+				A10AFDEA21DF92AB00205838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10AFDEE21DF92AB00205838 /* PBXTargetDependency */,
+			);
+			name = TimmerTests;
+			productName = TimmerTests;
+			productReference = A10AFDEC21DF92AB00205838 /* TimmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A10AFDF621DF92AB00205838 /* TimmerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10AFE0621DF92AB00205838 /* Build configuration list for PBXNativeTarget "TimmerUITests" */;
+			buildPhases = (
+				A10AFDF321DF92AB00205838 /* Sources */,
+				A10AFDF421DF92AB00205838 /* Frameworks */,
+				A10AFDF521DF92AB00205838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10AFDF921DF92AB00205838 /* PBXTargetDependency */,
+			);
+			name = TimmerUITests;
+			productName = TimmerUITests;
+			productReference = A10AFDF721DF92AB00205838 /* TimmerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10AFDD021DF92A900205838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = INDIA;
+				TargetAttributes = {
+					A10AFDD721DF92A900205838 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A10AFDEB21DF92AB00205838 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A10AFDD721DF92A900205838;
+					};
+					A10AFDF621DF92AB00205838 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A10AFDD721DF92A900205838;
+					};
+				};
+			};
+			buildConfigurationList = A10AFDD321DF92A900205838 /* Build configuration list for PBXProject "Timmer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10AFDCF21DF92A900205838;
+			productRefGroup = A10AFDD921DF92A900205838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10AFDD721DF92A900205838 /* Timmer */,
+				A10AFDEB21DF92AB00205838 /* TimmerTests */,
+				A10AFDF621DF92AB00205838 /* TimmerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10AFDD621DF92A900205838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10AFDE621DF92AB00205838 /* LaunchScreen.storyboard in Resources */,
+				A10AFDE321DF92AB00205838 /* Assets.xcassets in Resources */,
+				A10AFDE121DF92A900205838 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AFDEA21DF92AB00205838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AFDF521DF92AB00205838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10AFDD421DF92A900205838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10AFDDE21DF92A900205838 /* ViewController.swift in Sources */,
+				A10AFDDC21DF92A900205838 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AFDE821DF92AB00205838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10AFDF121DF92AB00205838 /* TimmerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AFDF321DF92AB00205838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10AFDFC21DF92AB00205838 /* TimmerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10AFDEE21DF92AB00205838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10AFDD721DF92A900205838 /* Timmer */;
+			targetProxy = A10AFDED21DF92AB00205838 /* PBXContainerItemProxy */;
+		};
+		A10AFDF921DF92AB00205838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10AFDD721DF92A900205838 /* Timmer */;
+			targetProxy = A10AFDF821DF92AB00205838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A10AFDDF21DF92A900205838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10AFDE021DF92A900205838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A10AFDE421DF92AB00205838 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10AFDE521DF92AB00205838 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10AFDFE21DF92AB00205838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10AFDFF21DF92AB00205838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10AFE0121DF92AB00205838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Timmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo1.Timmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10AFE0221DF92AB00205838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Timmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo1.Timmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A10AFE0421DF92AB00205838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo1.TimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timmer.app/Timmer";
+			};
+			name = Debug;
+		};
+		A10AFE0521DF92AB00205838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo1.TimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timmer.app/Timmer";
+			};
+			name = Release;
+		};
+		A10AFE0721DF92AB00205838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo1.TimmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Timmer;
+			};
+			name = Debug;
+		};
+		A10AFE0821DF92AB00205838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo1.TimmerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Timmer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10AFDD321DF92A900205838 /* Build configuration list for PBXProject "Timmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10AFDFE21DF92AB00205838 /* Debug */,
+				A10AFDFF21DF92AB00205838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10AFE0021DF92AB00205838 /* Build configuration list for PBXNativeTarget "Timmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10AFE0121DF92AB00205838 /* Debug */,
+				A10AFE0221DF92AB00205838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10AFE0321DF92AB00205838 /* Build configuration list for PBXNativeTarget "TimmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10AFE0421DF92AB00205838 /* Debug */,
+				A10AFE0521DF92AB00205838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10AFE0621DF92AB00205838 /* Build configuration list for PBXNativeTarget "TimmerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10AFE0721DF92AB00205838 /* Debug */,
+				A10AFE0821DF92AB00205838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10AFDD021DF92A900205838 /* Project object */;
+}

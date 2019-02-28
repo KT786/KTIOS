@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A167E13721E08E0B004A2986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A167E13621E08E0B004A2986 /* AppDelegate.swift */; };
+		A167E13921E08E0B004A2986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A167E13821E08E0B004A2986 /* ViewController.swift */; };
+		A167E13C21E08E0B004A2986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A167E13A21E08E0B004A2986 /* Main.storyboard */; };
+		A167E13E21E08E0D004A2986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A167E13D21E08E0D004A2986 /* Assets.xcassets */; };
+		A167E14121E08E0D004A2986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A167E13F21E08E0D004A2986 /* LaunchScreen.storyboard */; };
+		A167E14C21E08E0D004A2986 /* timmer_ex1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A167E14B21E08E0D004A2986 /* timmer_ex1Tests.swift */; };
+		A167E15721E08E0D004A2986 /* timmer_ex1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A167E15621E08E0D004A2986 /* timmer_ex1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A167E14821E08E0D004A2986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A167E12B21E08E0B004A2986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A167E13221E08E0B004A2986;
+			remoteInfo = "timmer ex1";
+		};
+		A167E15321E08E0D004A2986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A167E12B21E08E0B004A2986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A167E13221E08E0B004A2986;
+			remoteInfo = "timmer ex1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A167E13321E08E0B004A2986 /* timmer ex1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timmer ex1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A167E13621E08E0B004A2986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A167E13821E08E0B004A2986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A167E13B21E08E0B004A2986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A167E13D21E08E0D004A2986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A167E14021E08E0D004A2986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A167E14221E08E0D004A2986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A167E14721E08E0D004A2986 /* timmer ex1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "timmer ex1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A167E14B21E08E0D004A2986 /* timmer_ex1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timmer_ex1Tests.swift; sourceTree = "<group>"; };
+		A167E14D21E08E0D004A2986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A167E15221E08E0D004A2986 /* timmer ex1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "timmer ex1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A167E15621E08E0D004A2986 /* timmer_ex1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timmer_ex1UITests.swift; sourceTree = "<group>"; };
+		A167E15821E08E0D004A2986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A167E13021E08E0B004A2986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A167E14421E08E0D004A2986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A167E14F21E08E0D004A2986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A167E12A21E08E0B004A2986 = {
+			isa = PBXGroup;
+			children = (
+				A167E13521E08E0B004A2986 /* timmer ex1 */,
+				A167E14A21E08E0D004A2986 /* timmer ex1Tests */,
+				A167E15521E08E0D004A2986 /* timmer ex1UITests */,
+				A167E13421E08E0B004A2986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A167E13421E08E0B004A2986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A167E13321E08E0B004A2986 /* timmer ex1.app */,
+				A167E14721E08E0D004A2986 /* timmer ex1Tests.xctest */,
+				A167E15221E08E0D004A2986 /* timmer ex1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A167E13521E08E0B004A2986 /* timmer ex1 */ = {
+			isa = PBXGroup;
+			children = (
+				A167E13621E08E0B004A2986 /* AppDelegate.swift */,
+				A167E13821E08E0B004A2986 /* ViewController.swift */,
+				A167E13A21E08E0B004A2986 /* Main.storyboard */,
+				A167E13D21E08E0D004A2986 /* Assets.xcassets */,
+				A167E13F21E08E0D004A2986 /* LaunchScreen.storyboard */,
+				A167E14221E08E0D004A2986 /* Info.plist */,
+			);
+			path = "timmer ex1";
+			sourceTree = "<group>";
+		};
+		A167E14A21E08E0D004A2986 /* timmer ex1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A167E14B21E08E0D004A2986 /* timmer_ex1Tests.swift */,
+				A167E14D21E08E0D004A2986 /* Info.plist */,
+			);
+			path = "timmer ex1Tests";
+			sourceTree = "<group>";
+		};
+		A167E15521E08E0D004A2986 /* timmer ex1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A167E15621E08E0D004A2986 /* timmer_ex1UITests.swift */,
+				A167E15821E08E0D004A2986 /* Info.plist */,
+			);
+			path = "timmer ex1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A167E13221E08E0B004A2986 /* timmer ex1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A167E15B21E08E0E004A2986 /* Build configuration list for PBXNativeTarget "timmer ex1" */;
+			buildPhases = (
+				A167E12F21E08E0B004A2986 /* Sources */,
+				A167E13021E08E0B004A2986 /* Frameworks */,
+				A167E13121E08E0B004A2986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "timmer ex1";
+			productName = "timmer ex1";
+			productReference = A167E13321E08E0B004A2986 /* timmer ex1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A167E14621E08E0D004A2986 /* timmer ex1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A167E15E21E08E0E004A2986 /* Build configuration list for PBXNativeTarget "timmer ex1Tests" */;
+			buildPhases = (
+				A167E14321E08E0D004A2986 /* Sources */,
+				A167E14421E08E0D004A2986 /* Frameworks */,
+				A167E14521E08E0D004A2986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A167E14921E08E0D004A2986 /* PBXTargetDependency */,
+			);
+			name = "timmer ex1Tests";
+			productName = "timmer ex1Tests";
+			productReference = A167E14721E08E0D004A2986 /* timmer ex1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A167E15121E08E0D004A2986 /* timmer ex1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A167E16121E08E0E004A2986 /* Build configuration list for PBXNativeTarget "timmer ex1UITests" */;
+			buildPhases = (
+				A167E14E21E08E0D004A2986 /* Sources */,
+				A167E14F21E08E0D004A2986 /* Frameworks */,
+				A167E15021E08E0D004A2986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A167E15421E08E0D004A2986 /* PBXTargetDependency */,
+			);
+			name = "timmer ex1UITests";
+			productName = "timmer ex1UITests";
+			productReference = A167E15221E08E0D004A2986 /* timmer ex1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A167E12B21E08E0B004A2986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = INDIA;
+				TargetAttributes = {
+					A167E13221E08E0B004A2986 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A167E14621E08E0D004A2986 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A167E13221E08E0B004A2986;
+					};
+					A167E15121E08E0D004A2986 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A167E13221E08E0B004A2986;
+					};
+				};
+			};
+			buildConfigurationList = A167E12E21E08E0B004A2986 /* Build configuration list for PBXProject "timmer ex1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A167E12A21E08E0B004A2986;
+			productRefGroup = A167E13421E08E0B004A2986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A167E13221E08E0B004A2986 /* timmer ex1 */,
+				A167E14621E08E0D004A2986 /* timmer ex1Tests */,
+				A167E15121E08E0D004A2986 /* timmer ex1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A167E13121E08E0B004A2986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A167E14121E08E0D004A2986 /* LaunchScreen.storyboard in Resources */,
+				A167E13E21E08E0D004A2986 /* Assets.xcassets in Resources */,
+				A167E13C21E08E0B004A2986 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A167E14521E08E0D004A2986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A167E15021E08E0D004A2986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A167E12F21E08E0B004A2986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A167E13921E08E0B004A2986 /* ViewController.swift in Sources */,
+				A167E13721E08E0B004A2986 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A167E14321E08E0D004A2986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A167E14C21E08E0D004A2986 /* timmer_ex1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A167E14E21E08E0D004A2986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A167E15721E08E0D004A2986 /* timmer_ex1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A167E14921E08E0D004A2986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A167E13221E08E0B004A2986 /* timmer ex1 */;
+			targetProxy = A167E14821E08E0D004A2986 /* PBXContainerItemProxy */;
+		};
+		A167E15421E08E0D004A2986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A167E13221E08E0B004A2986 /* timmer ex1 */;
+			targetProxy = A167E15321E08E0D004A2986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A167E13A21E08E0B004A2986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A167E13B21E08E0B004A2986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A167E13F21E08E0D004A2986 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A167E14021E08E0D004A2986 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A167E15921E08E0E004A2986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A167E15A21E08E0E004A2986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A167E15C21E08E0E004A2986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "timmer ex1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo1.timmer-ex1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A167E15D21E08E0E004A2986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "timmer ex1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo1.timmer-ex1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A167E15F21E08E0E004A2986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "timmer ex1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo1.timmer-ex1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timmer ex1.app/timmer ex1";
+			};
+			name = Debug;
+		};
+		A167E16021E08E0E004A2986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "timmer ex1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo1.timmer-ex1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timmer ex1.app/timmer ex1";
+			};
+			name = Release;
+		};
+		A167E16221E08E0E004A2986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "timmer ex1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo1.timmer-ex1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "timmer ex1";
+			};
+			name = Debug;
+		};
+		A167E16321E08E0E004A2986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "timmer ex1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo1.timmer-ex1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "timmer ex1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A167E12E21E08E0B004A2986 /* Build configuration list for PBXProject "timmer ex1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A167E15921E08E0E004A2986 /* Debug */,
+				A167E15A21E08E0E004A2986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A167E15B21E08E0E004A2986 /* Build configuration list for PBXNativeTarget "timmer ex1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A167E15C21E08E0E004A2986 /* Debug */,
+				A167E15D21E08E0E004A2986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A167E15E21E08E0E004A2986 /* Build configuration list for PBXNativeTarget "timmer ex1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A167E15F21E08E0E004A2986 /* Debug */,
+				A167E16021E08E0E004A2986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A167E16121E08E0E004A2986 /* Build configuration list for PBXNativeTarget "timmer ex1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A167E16221E08E0E004A2986 /* Debug */,
+				A167E16321E08E0E004A2986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A167E12B21E08E0B004A2986 /* Project object */;
+}
